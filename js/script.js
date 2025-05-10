@@ -9,7 +9,6 @@ if (menuBtn && navbar) {
     }
 }
 
-
 window.onscroll = () => {
     menuBtn.classList.remove('fa-xmark');
     navbar.classList.remove('active');
@@ -19,12 +18,8 @@ window.onscroll = () => {
     }
     else {
         header.classList.remove('active');
-
     }
-
-
 }
-
 let slides = document.querySelectorAll('.reviews .row .slider-container .slide');
 let index = 0;
 
