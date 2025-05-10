@@ -134,6 +134,9 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
+    background: transparent; 
+    box-shadow: none;        
+    transition: background 0.3s, box-shadow 0.3s;
 }
 
 .header.active {
