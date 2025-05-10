@@ -139,7 +139,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s;
 }
 
-.header.active {
+element.style {
     background-color: var(--white);
     box-shadow: var(--box-shadow);
 }
